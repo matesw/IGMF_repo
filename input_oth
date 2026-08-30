@@ -1,0 +1,16 @@
+.true.      ! three-dimensional propagation true/false
+ 5          ! EBL_model 1 Kneiske best fit, 2 lower limit, 3 Franceschini arXiv:0805.1841, 4 Model C Finke et al. arXiv:0905.1115, 5 Gilmore et al. arXiv:1104.0671, 6 Dominguez et al. arXiv:1007.1459
+ 138        ! # nmax of injected photons
+.true.      ! psf homogeneous (true), Gaussian (false)
+ 1000       ! resolution n_binx in x-direction
+ 1000       ! resolution n_biny in y-direction	
+ 30         ! # n_bind of bins per degree
+ 0          ! shift of x-axis
+ 5          ! # n_bint of time bins in d=3
+ 28         ! # n_bine of energy bins in d=3
+ 1d5        ! upper limit for time-delay dt for particles in 1.st sky-map
+ 1d6        ! upper limit for time-delay dt for particles in 2.nd sky-map
+ 3d6        ! upper limit for time-delay dt for particles in 3.rd sky-map
+ 1d7        ! upper limit for time-delay dt for particles in 4.th sky-map	
+ 1d-20      ! upper limit for time-delay dt for non-interacting particles in last bin
+ 

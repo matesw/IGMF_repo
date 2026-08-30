@@ -1,0 +1,5 @@
+ N    ! instability model; N - None, A - Broderick et al. (2012), B - Miniati & Elyiv (2013), C - Schlickeiser et al. (2012, 2013), D - Sironi & Giannios (2014), E - Vafin et al. (2019) 
+ 1d4  ! temperature T/K of IGM 
+ 1d-7 ! density n/cm^3 of IGM 
+ 1d45 ! total isotropic-equivalent luminosity L in erg/s
+ 1.0  ! rescaling of plasma energy losses

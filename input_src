@@ -1,0 +1,11 @@
+ 3         ! en_dist = 1 fixed energy, 2 broken power-law, 3 user-specified function
+ 2.0d0    ! power alpha1 in dN/dE~E^(-alpha1) for E<E_br        
+ 2.0d0    ! power alpha2 in dN/dE~E^(-alpha2) for E>E_br
+ 1d14      ! maximal injection energy en_max in eV
+ 3d11      ! minimal injection energy en_min in eV                                   
+ 2d13      ! break energy en_br in eV, for en_dist=1 equal to injection energy
+ 1         ! z_dist = 1 fixed redshift, 2 (1+z)^m up to z_max, 3 user-specified function (up to z_max)
+ 2.d0      ! power m in (1+z)^m
+ 0.034d0    ! z_max, for z_dist=1 equal to z
+ 3.d0      ! jet opening angle th_jet in degrees
+ 0.d0      ! jet misalignment angle th_jetx in degrees

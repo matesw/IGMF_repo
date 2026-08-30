@@ -1,0 +1,11 @@
+ 2         ! b_model = 1 uniform, 2 turbulent, 3 from file
+ 1.d-13     ! B_rms in Gauss
+ 0.000316228       ! correlation length L_c/Mpc 
+ 1.66667d0 ! power-law fluctuations (5/3=Kolmogorov) 
+ 5d0       ! L_max/L_c
+ 5d-4      ! L_min/L_c
+ 200       ! number of turbulent modes n_k
+ 0.d0      ! helicity |h|<1 of the field	
+ 10        ! # nx of gridpoints for the EGMF in x direction
+ 10        ! # ny of gridpoints for the EGMF in y direction
+ 10        ! # nz of gridpoints for the EGMF in z direction
